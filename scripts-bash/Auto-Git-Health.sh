@@ -11,3 +11,5 @@ cd "$REPO_DIR"
 git add engineering_log.txt
 git commit -m "chore: automated health check - $(date '+%Y-%m-%d %H:%M')"
 git push origin main
+echo "--- Sync Projection ---"
+python3 /home/nodeadmin/Blockchain-Node-Ops/scripts-bash/Sync-ETA.py >> "$LOG_FILE"
