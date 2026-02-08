@@ -4,3 +4,6 @@
 ### Deep Analysis: Block 774628
 - Successfully queried node for 3.95MB 'Wizard' block via RPC.
 - Verified SegWit witness ratio (Stripped 12.4KB vs Total 3.95MB).
+### Performance Milestone: June 2023 Era
+- Heavy Block Monitor successfully triggered at height 793787 (3.35MB).
+- Observed sustained high block density (>2MB) during BRC-20 surge.
