@@ -23,3 +23,16 @@ Successfully executed a manual partition recovery on the 1.9TB NVMe after a fail
 
 ---
 *Maintained by an Information Systems Engineer (MSc), CITP & Certified Bitcoin Professional (CBP).*
+
+---
+
+## 🎖️ Professional Certifications
+| Credential | Issuing Body | Status |
+| :--- | :--- | :--- |
+| **CITP** (Chartered IT Professional) | BCS, The Chartered Institute for IT | Active |
+| **MBCS** (Member of the BCS) | BCS, The Chartered Institute for IT | Active |
+| **CBP C4** (Certified Bitcoin Professional) | CryptoCurrency Certification Consortium | Active |
+| **MSc** Information Systems Engineering | Graduate Level | Verified |
+| **BSc** Computer Forensics & IT Security | Graduate Level | Verified |
+
+---
