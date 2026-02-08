@@ -18,7 +18,7 @@ tail -f "$LOG" | while read -r line; do
         echo "Validated Height: $HEIGHT | Size: $((SIZE / 1024)) KB"
 
         # Alert if larger than 3.5MB (3,500,000 bytes)
-        if [ "$SIZE" -gt 3500000 ]; then
+        if [ "$SIZE" -gt 3900000 ]; then
              echo -e "\n\033[1;31m[!] HEAVY BLOCK DETECTED: Height $HEIGHT | Size: $(bc <<< "scale=2; $SIZE/1048576") MB\033[0m\n"
         fi
     fi
