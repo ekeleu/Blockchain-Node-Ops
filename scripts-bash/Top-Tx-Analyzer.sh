@@ -1,13 +1,11 @@
 #!/bin/bash
-# Analyze last 1,000 blocks for the largest transactions
-END_HEIGHT=$(bitcoin-cli getblockcount)
-START_HEIGHT=$((END_HEIGHT - 1000))
+# High-speed analyzer for the last 100 blocks
+EH=$(bitcoin-cli getblockcount)
+SH=$((EH - 100))
 
-echo "Analyzing blocks $START_HEIGHT to $END_HEIGHT..."
+echo "Analyzing blocks $SH to $EH for Mega-Transactions..."
 
-# Get all TXIDs from the range, then get their sizes, sort, and take top 5
-for h in $(seq $START_HEIGHT $END_HEIGHT); do
-    bitcoin-cli getblock $(bitcoin-cli getblockhash $h) 1 | jq -r '.tx[]'
-done | xargs -I {} bitcoin-cli getrawtransaction {} 1 | jq -r '.size, .txid' | \
-paste - - | sort -nr | head -n 5 | \
-awk '{printf "Size: %.2f MB | TXID: %s\n", $1/1048576, $2}'
+for h in $(seq $SH $EH); do
+    # Get block data and sort txs by size in one go
+    bitcoin-cli getblock $(bitcoin-cli getblockhash $h) 2 | jq -r '.tx[] | [.size, .txid] | @tsv'
+done | sort -rn | head -n 5 | awk '{printf "Size: %.2f MB | TXID: %s\n", $1/1048576, $2}'

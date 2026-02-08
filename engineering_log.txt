@@ -15,3 +15,9 @@ CPU I/O Wait: 5.20%
 SSD Wear Level: 
 ### Forensic Audit: Largest Transactions (Blocks -1000 to )
 Analyzing blocks 797218 to 798218...
+
+### Forensic Audit: Largest Transactions (Blocks 797295 to 798295)
+Analyzing blocks 797295 to 798295...
+
+### Forensic Audit: Top 5 Txs (Blocks 798580 to 798680)
+Analyzing blocks 798580 to 798680 for Mega-Transactions...
