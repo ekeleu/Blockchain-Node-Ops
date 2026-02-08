@@ -22,4 +22,4 @@ Successfully executed a manual partition recovery on the 1.9TB NVMe after a fail
 3. Utilize `tmux` sessions for persistent 24/7 uptime.
 
 ---
-*Maintained by an Information Systems Engineer (MSc) & Certified Bitcoin Professional (CBP).*
+*Maintained by an Information Systems Engineer (MSc), CITP & Certified Bitcoin Professional (CBP).*
