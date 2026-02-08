@@ -21,3 +21,9 @@ Analyzing blocks 797295 to 798295...
 
 ### Forensic Audit: Top 5 Txs (Blocks 798580 to 798680)
 Analyzing blocks 798580 to 798680 for Mega-Transactions...
+------------------------------------------------
+AUDIT DATE: 2026-02-08 06:24:59
+Sync Progress: %
+Disk Usage: 62%
+CPU I/O Wait: 1.65%
+SSD Wear Level: 
