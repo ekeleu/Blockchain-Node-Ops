@@ -1,22 +1,25 @@
 
+<!DOCTYPE html>
 <html>
-<head><title>Nodeadmin Dash - teachtrade.uk</title>
-<style>
-    body { font-family: 'Courier New', monospace; background: #0d0d0d; color: #00ff41; padding: 25px; }
-    .header { border-bottom: 2px solid #00ff41; margin-bottom: 20px; }
-    .era-badge { background: #00ff41; color: #000; padding: 5px 10px; font-weight: bold; border-radius: 5px; }
-    .log-entry { border-left: 1px solid #333; padding-left: 15px; margin: 5px 0; color: #aaffaa; }
-    .citp { color: #00d4ff; font-weight: bold; }
-</style>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { background: #050505; color: #00ff41; font-family: 'Courier New', monospace; margin: 0; padding: 15px; }
+        .header { border-bottom: 2px solid #333; padding-bottom: 10px; }
+        h1 { font-size: 1.4rem; margin: 10px 0; }
+        .indicator { height: 12px; width: 12px; background: #00ff41; border-radius: 50%; display: inline-block; box-shadow: 0 0 8px #00ff41; }
+        .log-container { background: #000; padding: 10px; border-radius: 5px; margin-top: 20px; font-size: 0.85rem; overflow-x: auto; }
+        .creds { color: #00d4ff; font-size: 0.8rem; }
+        @media (max-width: 600px) { h1 { font-size: 1.1rem; } .log-container { font-size: 0.75rem; } }
+    </style>
 </head>
 <body>
-<div class="header">
-    <h1>LIVE BLOCKCHAIN AUDIT: BTC + ETH + ASA</h1>
-    <p>Lead Engineer: <span class="citp">MSc, CITP, MBCS, CBP C4</span></p>
-    <p>Current Network Era: <span class="era-badge">The Inscription Peak</span> (Block 806527)</p>
-</div>
-<div id="logs">
-<div class="log-entry">------------------------------------------------</div><div class="log-entry">AUDIT DATE: 2026-02-08 06:05:13</div><div class="log-entry">Sync Progress: %</div><div class="log-entry">Disk Usage: 61%</div><div class="log-entry">CPU I/O Wait: 5.20%</div><div class="log-entry">SSD Wear Level:</div><div class="log-entry">### Forensic Audit: Largest Transactions (Blocks -1000 to )</div><div class="log-entry">Analyzing blocks 797218 to 798218...</div><div class="log-entry"></div><div class="log-entry">### Forensic Audit: Largest Transactions (Blocks 797295 to 798295)</div><div class="log-entry">Analyzing blocks 797295 to 798295...</div><div class="log-entry"></div><div class="log-entry">### Forensic Audit: Top 5 Txs (Blocks 798580 to 798680)</div><div class="log-entry">Analyzing blocks 798580 to 798680 for Mega-Transactions...</div><div class="log-entry">------------------------------------------------</div><div class="log-entry">AUDIT DATE: 2026-02-08 06:24:59</div><div class="log-entry">Sync Progress: %</div><div class="log-entry">Disk Usage: 62%</div><div class="log-entry">CPU I/O Wait: 1.65%</div><div class="log-entry">SSD Wear Level:</div><div class="log-entry">Analyzing blocks 800369 to 800469 for Max Transaction Sizes...</div><div class="log-entry">------------------------------------------------</div><div class="log-entry">AUDIT DATE: 2026-02-08 08:52:19</div><div class="log-entry">Sync Progress: %</div><div class="log-entry">Disk Usage: 64%</div><div class="log-entry">CPU I/O Wait: 4.71%</div><div class="log-entry">SSD Wear Level:</div><div class="log-entry">### Milestone: 64% Sync</div><div class="log-entry">- Currently validating Sept 2023 'Atomicals' era.</div><div class="log-entry">- UTXO Cache holding 7.9M+ entries with high signature density.</div>
-</div>
+    <div class="header">
+        <h1><div class="indicator"></div> teachtrade.uk Node Status</h1>
+        <div class="creds">MSc | CITP | MBCS | CBP C4</div>
+    </div>
+    <div class="log-container">
+        
+    </div>
 </body>
 </html>
