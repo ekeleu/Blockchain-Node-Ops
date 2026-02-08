@@ -10,3 +10,4 @@ Sync Progress: %
 Disk Usage: 74%
 CPU I/O Wait: 4.45%
 SSD Wear Level: 
+Storage Health: 76% used. (226GB remaining)
