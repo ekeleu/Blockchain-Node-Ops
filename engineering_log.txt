@@ -13,3 +13,5 @@ Sync Progress: %
 Disk Usage: 61%
 CPU I/O Wait: 5.20%
 SSD Wear Level: 
+### Forensic Audit: Largest Transactions (Blocks -1000 to )
+Analyzing blocks 797218 to 798218...
