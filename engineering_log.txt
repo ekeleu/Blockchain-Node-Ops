@@ -34,3 +34,6 @@ Sync Progress: %
 Disk Usage: 64%
 CPU I/O Wait: 4.71%
 SSD Wear Level: 
+### Milestone: 64% Sync
+- Currently validating Sept 2023 'Atomicals' era.
+- UTXO Cache holding 7.9M+ entries with high signature density.
