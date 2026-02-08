@@ -27,3 +27,4 @@ Sync Progress: %
 Disk Usage: 62%
 CPU I/O Wait: 1.65%
 SSD Wear Level: 
+Analyzing blocks 800369 to 800469 for Max Transaction Sizes...
