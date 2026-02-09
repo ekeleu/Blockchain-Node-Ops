@@ -1,14 +1,4 @@
-------------------------------------------------
-AUDIT DATE: 2026-02-08 12:00:01
 Sync Progress: %
-Disk Usage: 69%
-CPU I/O Wait: 4.44%
+Disk Usage: 77%
+CPU I/O Wait: 4.22%
 SSD Wear Level: 
-------------------------------------------------
-AUDIT DATE: 2026-02-08 18:00:01
-Sync Progress: %
-Disk Usage: 74%
-CPU I/O Wait: 4.45%
-SSD Wear Level: 
-Storage Health: 76% used. (226GB remaining)
-Sun  8 Feb 21:03:46 GMT 2026: Pathing correction: moved BTC blocks from /mnt/bitcoin to warehouse and symlinked.
