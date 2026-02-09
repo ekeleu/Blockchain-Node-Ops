@@ -16,3 +16,4 @@ Mon  9 Feb 07:59:58 GMT 2026: Discontinuity detected at blk02309.dat. Auditing W
 Mon  9 Feb 08:02:30 GMT 2026: Collision detected at blk02309.dat. SSD file purged; Warehouse symlink restored. Node restarting.
 Mon  9 Feb 08:15:59 GMT 2026: Persistent shutdown loop. Executed 'Atomic Purge' of SSD block files to resolve symlink collisions. 5820 Tower identified for cluster expansion.
 Mon  9 Feb 08:23:52 GMT 2026: Persistent Shutdown Loop at blk02309. Executing -reindex-chainstate to purge LevelDB corruption. Sourcing 5820 Tower (128GB RAM) from Bargain Hardware UK.
+Mon  9 Feb 10:42:01 GMT 2026: Height 0 crash persists. Executed deep metadata wipe of SSD indexes and forced re-ownership of mounts. Initiating clean Warehouse scan.
