@@ -18,3 +18,4 @@ Mon  9 Feb 08:15:59 GMT 2026: Persistent shutdown loop. Executed 'Atomic Purge' 
 Mon  9 Feb 08:23:52 GMT 2026: Persistent Shutdown Loop at blk02309. Executing -reindex-chainstate to purge LevelDB corruption. Sourcing 5820 Tower (128GB RAM) from Bargain Hardware UK.
 Mon  9 Feb 10:42:01 GMT 2026: Height 0 crash persists. Executed deep metadata wipe of SSD indexes and forced re-ownership of mounts. Initiating clean Warehouse scan.
 Mon  9 Feb 10:50:11 GMT 2026: Node A successfully bypassed Height 0 deadlock. Reindex reached 163,496 (Jan 2012). Monitoring for H-182900 consistency.
+Mon  9 Feb 11:24:48 GMT 2026: Strategy: Procuring 2TB SATA SSD for 7510 to eliminate external Warehouse latency. Moving ETH to cold storage. Drafting Tailscale/Tor mesh.
