@@ -1,24 +1,4 @@
-------------------------------------------------
-AUDIT DATE: 2026-04-05 00:00:01
 Sync Progress: %
-Disk Usage: 21%
-CPU I/O Wait: 10.34%
-SSD Wear Level: 
-------------------------------------------------
-AUDIT DATE: 2026-04-05 06:00:01
-Sync Progress: %
-Disk Usage: 21%
-CPU I/O Wait: 19.34%
-SSD Wear Level: 
-------------------------------------------------
-AUDIT DATE: 2026-04-05 12:00:01
-Sync Progress: %
-Disk Usage: 22%
-CPU I/O Wait: 18.07%
-SSD Wear Level: 
-------------------------------------------------
-AUDIT DATE: 2026-04-05 18:00:01
-Sync Progress: %
-Disk Usage: 22%
-CPU I/O Wait: 0.77%
+Disk Usage: 23%
+CPU I/O Wait: 1.80%
 SSD Wear Level: 
