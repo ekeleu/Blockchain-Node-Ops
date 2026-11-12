@@ -1,3 +1,6 @@
 engineering_log.txt.*
 *.gz
 cron_error.log
+
+# Private operational monitoring records
+/engineering_log.txt
