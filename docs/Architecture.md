@@ -1,3 +1,5 @@
+> **ARCHIVED (November 2026): Historical laboratory configuration. Not current operational guidance.**
+
 # Storage Tiering & Node Architecture
 
 ## Hardware Configuration

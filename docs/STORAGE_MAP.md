@@ -1,3 +1,5 @@
+> **ARCHIVED (November 2026): Historical laboratory configuration. Not current operational guidance.**
+
 # 🗺️ Multi-Node Storage Architecture
 
 | Disk | Mount | Role | Nodes Hosted |
